@@ -1,5 +1,7 @@
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import { motion } from "framer-motion";
+import profile from "/profile.jpeg";
+import resume from "/resume.pdf";
 
 function Hero() {
   return (
@@ -44,7 +46,7 @@ function Hero() {
 
         <div className="hero-buttons">
 
-          <a href="/resume.pdf" download>
+          <a href={resume} download>
             <FaDownload />
             <span>Download Resume</span>
           </a>
@@ -85,10 +87,10 @@ function Hero() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <img
-            src="/profile.jpeg"
-            alt="Bandi Susmitha Reddy"
-          />
+        <img
+           src={profile}
+          alt="Bandi Susmitha Reddy"
+        />
         </motion.div>
 
       </div>
