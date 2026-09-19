@@ -15,6 +15,21 @@ const projects = [
     title: "IoT-Enabled Smart Home Monitoring",
     tech: ["IoT", "Sensors", "Embedded Systems"],
     desc: "Designed a smart home monitoring system to monitor and control home appliances using IoT technology."
+  },
+  {
+    title: "Python Calculator",
+    tech: ["Python"],
+    desc: "Developed a command-line calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division with user-friendly input handling."
+  },
+  {
+    title: "Password Generator",
+    tech: ["Python"],
+    desc: "Built a secure password generator that creates strong random passwords using uppercase letters, lowercase letters, numbers, and special characters."
+  },
+  {
+    title: "To-Do List Application",
+    tech: ["Python"],
+    desc: "Created a console-based To-Do List application to add, update, delete, and manage daily tasks efficiently using Python."
   }
 ];
 

@@ -12,19 +12,18 @@ function Internship() {
         Internship
       </motion.h2>
 
+      {/* Internship 1 */}
       <motion.div
         className="internship-card"
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: .8 }}
       >
-
         <div className="internship-icon">
           <FaBriefcase />
         </div>
 
         <div className="internship-content">
-
           <h3>Infosys Springboard Virtual Internship</h3>
 
           <span>
@@ -40,9 +39,38 @@ function Internship() {
             Machine Learning Based Phishing Website Detection System using
             Python, Pandas, NumPy and Scikit-learn.
           </p>
+        </div>
+      </motion.div>
 
+      {/* Internship 2 */}
+      <motion.div
+        className="internship-card"
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: .8, delay: 0.2 }}
+      >
+        <div className="internship-icon">
+          <FaBriefcase />
         </div>
 
+        <div className="internship-content">
+          <h3>CODSOFT Virtual Internship</h3>
+
+          <span>
+            <FaCalendarAlt />
+            July 2026 – August 2026
+          </span>
+
+          <h4>Python Programming</h4>
+
+          <p>
+            Successfully completed a 4-week Python Programming Virtual
+            Internship at CODSOFT. Worked on hands-on Python projects,
+            strengthened programming fundamentals, problem-solving skills,
+            and gained practical experience by completing assigned tasks
+            within the internship duration.
+          </p>
+        </div>
       </motion.div>
 
     </section>

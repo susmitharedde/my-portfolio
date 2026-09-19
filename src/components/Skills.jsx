@@ -19,7 +19,7 @@ function Skills() {
     {
       title: "Web Technologies",
       icon: <FaHtml5 />,
-      items: ["HTML"],
+      items: ["HTML", "CSS", "JavaScript"],
     },
     {
       title: "Version Control",
@@ -27,10 +27,14 @@ function Skills() {
       items: ["Git", "GitHub"],
     },
     {
-      title: "Development Tools",
-      icon: <FaTools />,
-      items: ["Visual Studio Code"],
-    },
+  title: "Development Tools",
+  icon: <FaTools />,
+  items: [
+    "Visual Studio Code",
+    "MATLAB",
+    "Vivado"
+],
+},
     {
       title: "Productivity Tools",
       icon: <FaGithub />,
